@@ -28,25 +28,22 @@ export const NAV_LINKS: SocialLink[] = [
 
 export const SOCIAL_LINKS: SocialLink[] = [
   {
-    href: 'https://github.com/cojocaru-david?ref=personal-website',
+    href: 'mailto:hello@johnpdang.com',
+    label: 'Email',
+  },  
+  {
+    href: 'https://github.com/johnpdang',
     label: 'GitHub',
   },
   {
-    href: 'mailto:contact@cojocarudavid.me',
-    label: 'Email',
-  },
+    href: 'https://www.linkedin.com/in/john-p-dang/',
+    label: 'Linkedin',
+  },  
   {
-    href: 'tel:+40764132266',
-    label: 'Phone',
-  },
-  {
-    href: 'https://www.instagram.com/david._.cojo?ref=personal-website',
+    href: 'https://www.instagram.com/johnpdang/',
     label: 'Instagram',
   },
-  {
-    href: '/rss.xml',
-    label: 'RSS',
-  },
+
 ]
 
 export const ICON_MAP: IconMap = {
@@ -55,7 +52,7 @@ export const ICON_MAP: IconMap = {
   Instagram: 'lucide:instagram',
   Phone: 'lucide:phone',
   Email: 'lucide:mail',
-  RSS: 'lucide:rss',
+  Linkedin: 'lucide:linkedin',
 }
 
 export interface Category {
